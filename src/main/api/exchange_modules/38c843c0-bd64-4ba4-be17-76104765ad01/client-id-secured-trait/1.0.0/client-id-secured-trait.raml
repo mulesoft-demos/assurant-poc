@@ -1,0 +1,16 @@
+#%RAML 1.0 Trait
+usage: Defines the parameters needed to use the Client ID enforcement policy 
+
+queryParameters:
+  client_id:
+    type: string
+    description: Anypoint Platform application ID
+    required: false
+    displayName: Client Id
+    default: client_id_test
+  client_secret:
+    type: string
+    description: Anypoint Platform application secret
+    required: false
+    displayName: Client Secret
+    default: client_secret_test
