@@ -32,6 +32,7 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
     </flow>
     <flow name="get:/policy/{id}:policy-data-api-config">
         <set-payload value="#[NullPayload.getInstance()]" doc:name="Set Payload"/>
+        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
     </flow>
     <flow name="post:/policy:application/json:policy-data-api-config">
         <set-property propertyName="Content-Type" value="application/json" doc:name="Property"/>
