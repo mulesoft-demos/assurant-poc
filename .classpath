@@ -24,7 +24,11 @@
       <attribute value="test" name="org.mule.tooling.scope"/>
     </attributes>
   </classpathentry>
+<<<<<<< HEAD
   <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar">
+=======
+  <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar" sourcepath="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2-sources.jar">
+>>>>>>> 1ab143a553ac66f94277b2282ee02086e40cd3b1
     <attributes>
       <attribute value="test" name="org.mule.tooling.scope"/>
     </attributes>
